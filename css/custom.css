@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
+
+/* custom css classes*/
+body{
+    
+    background-position: fixed;
+    background-attachment: fixed;
+    top: 0%;
+    left: 0%;
+    background-image: url(../images/Background.jpg);
+    background-size: cover;
+    font-family: 'Source Sans Pro';
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    
+}
+
+
+.my-menu{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0,0,0);
+    padding: 0px;
+    color: white;
+}
+
+.menu-element {
+    flex: 1;
+    flex-basis:25%;
+    text-align: center;
+    font-size: 150%;
+    color:white;
+    text-decoration: none;
+}
+
+.menu-element:hover {
+    cursor: pointer;
+    flex: 1;
+    flex-basis:25%;
+    text-align: center;
+    font-size: 150%;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    transition-duration: 0.3s;
+    background-color: #3a3a3a;
+    box-shadow: 0 16px 8px -8px #636363;
+    color:white;
+    text-decoration: none;
+}
+
+.menu-text {
+    transform: translate(0px,13px);
+}
+
+.about {
+    width: 100vw;
+}
+
+.img-align {
+    height:30vh;
+    margin: 15px 0px;
+    position: relative;
+    left:50%;
+    transform: translate(-51%,0%);
+}
+
+.new-align {
+    position: relative;
+    left: 0px;
+}
+
+.about-h {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.about-text {
+    padding: 30px 30px;
+    background-color: lightgray;
+}
+
+.about-p {
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    text-align: left;
+    
+}
+
+.my-skills {
+    padding: 30px 30px;
+}
+
+.skills-p {
+    text-align: center;
+}
+
+.charts {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.chart-element {
+    margin-top: 10px;
+    height: 150px;
+    width: auto;
+   
+}
+
+.chart-elementhov:hover {
+    margin-top: 10px;
+    height: 200px;
+    width: auto;
+    transition-duration: 0.5s;
+    box-shadow: 0 16px 8px -8px #636363;
+
+}
+
+.other {
+    margin-top: 20px;
+}
+
+.portfolio {
+    background-color: rgba(0,0,0,0.4);
+    padding: 30px 0px;
+    
+}
+
+.space {
+    padding: 0px 20px;
+    margin: 20px 0px;
+}
+
+.white {
+    color: #d8d8d8;
+}
+
+.contact {
+    background-color: black;
+    padding: 20px 40px;
+}
+
+.cont-cont {
+    font-family: Source Sans Pro;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.det-det {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+    flex:1;
+    display:flex;
+    justify-content: center;
+}
+
+.bottom-ele {
+    display: inline;
+    
+}
+
+.up {
+	position: fixed;
+	left: 90vw;
+	bottom: 2%;
+	z-index: 9999999999;
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+.a:hover {
+    z-index: 9999999;
+    background-color: rgba(5,5,5,0);
+}
+.a:focus {
+    z-index: 9999999;
+    background-color: rgba(5,5,5,0);
+}
+.size{
+    width:35px;
+    height:35px;
+}
+
+@media (max-width:768px){
+    .img-align {
+    margin: 35px 0px;
+    width: 115%;
+    height: 100%;
+}
+    .charts {
+    margin: 30px 0px;
+    display: block;
+    
+}
+
+.chart-element {
+    display:block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+    width: auto;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,0%);
+    
+   
+}
+
+.chart-elementhov:hover {
+    height: 240px;
+    width: auto;
+    transition-duration: 0.5s;
+    box-shadow: 0 16px 8px -8px #636363;
+
+}
+    .contact {
+    background-color: black;
+    padding: 20px 40px;
+}
+
+.cont-cont {
+    font-family: Source Sans Pro;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.details {
+    display: block;
+    
+}
+
+.det-det {
+    margin: 20px 0px;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+    flex:1;
+    display:flex;
+    justify-content: center;
+}
+
+.bottom-ele {
+    display: inline;
+    
+}
+.up {
+	position: fixed;
+	left: 85%;
+	bottom: 2%;
+	z-index: 9999999999;
+}
+body{
+    
+    background-position: fixed;
+    background-attachment: fixed;
+    top: 0%;
+    left: 0%;
+    background-image: url(../images/Background.jpg);
+    background-size: contain;
+    font-family: 'Source Sans Pro';
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    
+}    
+}
+.a{
+    
+}
+.loader {
+        position: fixed;
+        left: 47%;
+        top: 46%;
+        border: 8px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 8px solid gray;
+        width: 60px;
+        height: 60px;
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+    }
+
+    @-webkit-keyframes spin {
+        0% {
+            -webkit-transform: rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }

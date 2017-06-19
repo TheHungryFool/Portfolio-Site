@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="24.8581mm" height="25.0257mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1219 1228"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="599" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Tahoma">
+		<font-face-src>
+			<font-face-name name="Tahoma"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="L" horiz-adv-x="497" d="M495.994 0l-421.997 0 0 727.005 97.0064 0 0 -640.999 324.991 0 0 -86.0059z"/>
+   <glyph unicode="T" horiz-adv-x="583" d="M243.99 0l0 640.999 -243.99 0 0 86.0059 585.007 0 0 -86.0059 -244.01 0 0 -640.999 -97.0064 0z"/>
+   <glyph unicode="H" horiz-adv-x="675" d="M600.993 0l-96.987 0 0 355.994 -333.004 0 0 -355.994 -97.0064 0 0 727.005 97.0064 0 0 -285.005 333.004 0 0 285.005 96.987 0 0 -727.005z"/>
+   <glyph unicode="M" horiz-adv-x="770" d="M696.991 0l-96.987 0 0 626.331 -189.512 -426.324 -58.4948 0 -187.998 426.324 0 -626.331 -90.0025 0 0 727.005 131.502 0 181.674 -404.846 175.155 404.846 134.664 0 0 -727.005z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Tahoma";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .str1 {stroke:#727271;stroke-width:69.2176}
+    .str0 {stroke:#E4E4E5;stroke-width:69.2176}
+    .fil0 {fill:none;fill-rule:nonzero}
+    .fil1 {fill:#9D9C9E}
+    .fnt0 {font-weight:normal;font-size:252.83px;font-family:'Tahoma'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1895455004464">
+   <path class="fil0 str0" d="M610 35c317,0 575,259 575,579 0,320 -258,579 -575,579 -318,0 -575,-259 -575,-579 0,-320 257,-579 575,-579z"/>
+   <path class="fil0 str1" d="M610 1193c-318,0 -575,-259 -575,-579 0,-320 257,-579 575,-579 317,0 575,259 575,579"/>
+   <g transform="matrix(0.992906 0 0 1 -950.772 5406)">
+    <text x="1243" y="-4700"  class="fil1 fnt0">HTML</text>
+   </g>
+  </g>
+ </g>
+</svg>
